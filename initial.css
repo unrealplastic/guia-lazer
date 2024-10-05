@@ -1,0 +1,140 @@
+@charset "UTF8";
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:rgb(244, 244, 244);
+}
+
+header{
+    background-color: #78daa8;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-buttons{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+}
+
+.button-cadastro{
+    padding: 2px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #36A67D;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.button-login{
+    padding: 2px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3A7861;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+h1{
+    color: #e04938;
+    margin: 1px;
+}
+
+.logo{
+    display: flex;
+}
+
+.box-search{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 25px;
+    background-color: #E9FFF4;
+}
+
+input[type="search"]{
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: larger;
+    width: 70%;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.highlight-image{
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+    border: solid 1px #86cea5;
+}
+
+.box-highlight{
+    display: flex;
+    background-color:#ffffff;
+    padding: 15px;
+    gap: 15px;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.box-highlight-bg{
+    background-color:rgb(244, 244, 244);
+    border-radius: 15px;
+    padding: 15px 25px 30px;
+}
+
+.places-highlight{
+    display: flex;
+    flex-direction: column;
+}
+
+.places-title{
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    color: #5ca981;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.places{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.places-images{
+    border-radius: 10px;
+    border: solid 1px #86cea5;
+}
+
+.default-paragraph{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.help{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffc5c5;
+    border-radius: 30px;
+    padding: 0 15px;
+    width: 94%;
+    margin: 0 auto;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.help-item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
